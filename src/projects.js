@@ -1,6 +1,6 @@
 import simon_game2 from "../src/assets/simon_game2.png";
 import book_store1 from "../src/assets/book_store1.png";
-import keeper1 from "../src/assets/keeper1.png";
+import Keeper1 from "../src/assets/Keeper1.png";
 import ALS1 from "../src/assets/ALS1.png";
 import weather1 from "../src/assets/weather1.png"
 import Portofolio from "../src/assets/Portofolio.png"
@@ -17,7 +17,7 @@ const projects = [
     {
         id: 2,
         name: "Keeper",
-        img: keeper1,
+        img: Keeper1,
         tech: "ReactJS, HTML, CSS",
         details: "This is my first project using ReactJS, inspired by the online lessons from Udemy. In this one, you're able to type and add notes dynamically while also being able to delete them. You can add as many as you want and it really demonstrates the basics of React."
     },
