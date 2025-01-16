@@ -24,8 +24,10 @@
 }
 
 .anas-button {
+    text-decoration: none;
+    color: white;
     background: linear-gradient(to right, #FF7E5F, #c08053);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: bold;
     border: 0;
     border-radius: 20px;
@@ -35,8 +37,8 @@
 }
 
 .anas-button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    box-shadow: 0 0 11px rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (max-width: 768px) {
