@@ -24,6 +24,8 @@
 }
 
 .anas-button {
+    display: block;
+    margin-top: 15px;
     text-decoration: none;
     color: white;
     background: linear-gradient(to right, #FF7E5F, #c08053);
@@ -37,6 +39,8 @@
 }
 
 .anas-button:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
     text-decoration: none;
     box-shadow: 0 0 11px rgba(255, 255, 255, 0.6);
 }

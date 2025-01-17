@@ -17,6 +17,7 @@ function Projects() {
     return (
         <div id="projects" className="projects-container">
              <h1>My Projects</h1>
+             <p className="visit-git">Below you can view some of my lastest proejects. For a full code review, you can visit my <a href="https://github.com/AnastasisMaltsios" target="_blank" rel="noopener noreferrer">Github.</a></p>
              <div className="cards">
              <div className="my-projects">
                 {projects.map((project) => {

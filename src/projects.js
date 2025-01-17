@@ -26,7 +26,7 @@ const projects = [
         name: "Weather App",
         img: weather1,
         tech: "ReactJS, CSS, HTML, Web APIs",
-        details: "This is my first project with APIs. It's simple app where, with the help of the OpenWeather's API, you can type and search any city in the world. The output will be the name of the city that was entered, their current weather description and the temperature in celsius."
+        details: "This is my first project with APIs. It's a simple app where, with the help of the OpenWeather's API, you can type and search any city in the world. The output will be the name of the city that was entered, their current weather description and the temperature in celsius."
     },
     {
         id: 4,
@@ -36,7 +36,7 @@ const projects = [
             frontend: "ReactJS, CSS, HTML, Javascript, Web APIs",
             backend: "PostgreSQL, NodeJS & Express"
         },
-        details: "This project is also using an API, but it's slightly more complicated. Instead of just making the API request in the app, you first have to register, providing a username and a password, and the login with these credentials in order to make the request. Once logged in, you can search either by title or author."
+        details: "This project is also using an API, but it's slightly more complicated. Instead of just making the API request in the app, you first have to register, providing a username and a password, and then login with these credentials in order to make the request. Once logged in, you can search either by title or author."
     },
     
     {
@@ -47,7 +47,7 @@ const projects = [
             frontend: "HTML, Bootstrap, CSS, Javascript, EJS",
             backend: "MongoDB, NodeJS & Express"
         },
-        details: "This is by far my biggest project so far, since this was also the last project i should build to complete my bachelors in CS. It's a management platform for patients with ALS(Neuron disease). This project also has a register and a signup page, but instead of Porstgre it's using a nosql database, MongoDB. In this registry, you're able to add and delete patients. "
+        details: "This is the biggest project so far i had to build in order to complete my bachelors in CS. It's a management platform for patients with ALS. It also has a register and a signup page, but this one is MongoDB for the backend. You're able to add and delete patients. Last but not least, the platform, based on the ALSFRS-R algorith, has a survey for each patient a doctor has added, where he can keep track the state of this patient, while also keeping a history of these surveys."
     },
     {
         id: 6,

@@ -64,7 +64,13 @@
 .view-button, .modal-content svg {
     vertical-align: middle;
 }
-
+.visit-git {
+    text-align: center;
+}
+.visit-git a {
+    color: #FF7E5F;
+    text-decoration: none;
+}
 .modal {
     position: fixed;
     top: 0;
