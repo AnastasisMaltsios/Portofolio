@@ -2,8 +2,9 @@ import simon_game2 from "../src/assets/simon_game2.png";
 import book_store1 from "../src/assets/book_store1.png";
 import Keeper1 from "../src/assets/Keeper1.png";
 import ALS1 from "../src/assets/ALS1.png";
-import weather1 from "../src/assets/weather1.png"
-import Portofolio from "../src/assets/Portofolio.png"
+import weather1 from "../src/assets/weather1.png";
+import Portofolio from "../src/assets/Portofolio.png";
+import Movie_Project from "../src/assets/Movie_Project.png";
 
 
 const projects = [
@@ -55,6 +56,13 @@ const projects = [
         img: Portofolio,
         tech: "ReactJS, CSS, HTML, Javascript",
         details: "This is my portofolio website. It helps me show a little bit of my work and create a cool project at the same time. I'll make sure to update it as soon as i make new complex projects."
+    },
+    {
+        id: 7,
+        name: "Movies Dashboard",
+        img: Movie_Project,
+        tech: "ReactJS, CSS, HTML, Javascript",
+        details: "This is my most recent project. It utilizes the TMDB's api, fetching the top rated movies as well as the new trending ones. The user can also search for movies and it returns the top 20 results. Lastly, it supports a light-dark theme feature, where the user can switch between the two themes according to his liking."
     }
 ]
 

@@ -22,8 +22,8 @@ function Projects() {
              <div className="my-projects">
                 {projects.map((project) => {
                     return (
-                        <div className="project-card">
-                    <img key= {project.id} src={project.img} alt=""/>
+                        <div key= {project.id} className="project-card">
+                    <img  src={project.img} alt=""/>
                     <p>Name: {project.name}</p>
                     <button onClick={() => showModal(project)} className="view-button">View More</button>
                     </div> 
